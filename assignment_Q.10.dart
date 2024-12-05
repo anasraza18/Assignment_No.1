@@ -2,6 +2,9 @@ import 'dart:io';
 
 void main(){
 
+//Q10: Write a program that takes three numbers from the user and prints the
+//greatest number & lowest number.
+
   print("Enter the 1st number:");
   String? input1 = stdin.readLineSync();
   int number1 = int.parse(input1!);
